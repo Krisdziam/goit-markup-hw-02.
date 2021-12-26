@@ -37,6 +37,7 @@ img {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+  display: flex;
 }
 .link-header {
   font-weight: 500;
@@ -86,7 +87,6 @@ img {
   padding-bottom: 94px;
 }
 
-}
 .main-page-web {
   color: #2196f3;
 }
@@ -117,16 +117,15 @@ img {
 }
 
 /*  _____________________information _____________________ */
-.information{
-padding-bottom: 94px;
+.information {
+  padding-bottom: 94px;
 }
-  
+
 /*  _____________________Команда _____________________ */
 .team {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   padding-bottom: 94px;
   padding-top: 94px;
- 
 }
 .team-title {
   font-weight: 500;
@@ -137,7 +136,6 @@ padding-bottom: 94px;
   color: #757575;
   font-size: 16px;
   line-height: 1.18;
-
 }
 /*  _____________________Footer _____________________ */
 .footer {
