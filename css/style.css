@@ -1,13 +1,43 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #212121;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
 }
 
 .list {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
-/* Шапка */
+/* _____________________Шапка ______________________ */
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 .link-header {
   font-weight: 500;
   font-size: 14px;
@@ -29,7 +59,20 @@ body {
 .link-contacts:focus {
   color: #2196f3;
 }
-/* Главная страница
+/* ____________________Hero_________________________________ */
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: #2f303a;
+}
+.hero-text {
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+}
+/*  _____________________Главная страница _____________________
  */
 .main-page {
   text-decoration: none;
@@ -37,19 +80,18 @@ body {
   font-size: 26px;
   line-height: 31px;
 }
+/*  _____________________work _____________________ */
+.work {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+}
 .main-page-web {
   color: #2196f3;
 }
-.hero {
-  background-color: #2f303a;
-}
-.hero-text {
-  color: #ffffff;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-}
-/* Кнопка */
+
+/*  _____________________Кнопка _____________________ */
 .button-main {
   color: #ffffff;
   cursor: pointer;
@@ -73,9 +115,18 @@ body {
   line-height: 1.16;
   text-align: center;
 }
-/* Команда */
+
+/*  _____________________information _____________________ */
+.information{
+padding-bottom: 94px;
+}
+  
+/*  _____________________Команда _____________________ */
 .team {
-  background-color: #f5f4fa;
+  background-color: #F5F4FA;
+  padding-bottom: 94px;
+  padding-top: 94px;
+ 
 }
 .team-title {
   font-weight: 500;
@@ -86,10 +137,13 @@ body {
   color: #757575;
   font-size: 16px;
   line-height: 1.18;
+
 }
-/* Footer */
+/*  _____________________Footer _____________________ */
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .studio-footer {
   color: #ffffff;
@@ -111,7 +165,7 @@ body {
   color: #2196f3;
 }
 
-/* Работа с портфолио */
+/*  _____________________Работа с портфолио _____________________ */
 .button-one {
   color: #ffffff;
   background-color: #2196f3;
