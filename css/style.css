@@ -24,7 +24,6 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
 }
 
 .list {
@@ -33,10 +32,30 @@ img {
   margin: 0;
 }
 
-/* _____________________Шапка ______________________ */
+/*Шапка*/
+.main-page-web {
+  color: #2196f3;
+}
+.main-page-studio {
+  color: #000000;
+}
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+}
+.header-nav:not(:last-child) {
+  margin-right: 50px;
+}
+.header-tel {
+  display: flex;
+  margin-left: auto;
 }
 
 .link-header {
@@ -45,6 +64,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
+  margin-right: 50px;
 }
 
 .link-header:hover,
@@ -57,46 +77,57 @@ img {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  margin-left: 50px;
 }
 .link-contacts:hover,
 .link-contacts:focus {
   color: #2196f3;
 }
-/* ____________________Hero_________________________________ */
+/*Hero*/
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #2f303a;
+  text-align: center;
 }
 .hero-text {
+  max-width: 696px;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 30px;
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
 }
-/*  _____________________Главная страница _____________________
- */
+/* Главная страница */
 .main-page {
   text-decoration: none;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
+  margin-right: 93px;
 }
-/*  _____________________work _____________________ */
+/* Ворк */
 .work {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.main-page-web {
-  color: #2196f3;
+.work-list {
+  display: flex;
 }
-.main-page-studio {
-  color: #000000;
+.list-about-title {
+  margin-bottom: 10px;
+}
+.list-about:not(:last-child) {
+  margin-right: 30px;
+}
+.list-about {
+  width: calc((100% - 90px) / 4);
 }
 
-/*  _____________________Кнопка _____________________ */
+/* Кнопка */
 .button-main {
   color: #ffffff;
   cursor: pointer;
@@ -114,6 +145,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
 }
+
 .information-about {
   font-weight: bold;
   font-size: 36px;
@@ -121,35 +153,65 @@ img {
   text-align: center;
 }
 
-/*  _____________________information _____________________ */
+/* Інформация */
 .information {
   padding-bottom: 94px;
 }
+.information-about {
+  margin-bottom: 50px;
+}
+.list-img {
+  display: flex;
+}
+.img-item:not(:last-child) {
+  margin-right: 30px;
+}
 
-/*  _____________________Команда _____________________ */
+/* Команда */
 .team {
   background-color: #f5f4fa;
   padding-bottom: 94px;
   padding-top: 94px;
 }
+.team-about {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.list-team {
+  display: flex;
+}
+.team-member:not(:last-child) {
+  margin-right: 30px;
+}
 .team-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  margin-top: 30px;
 }
 .team-text {
   color: #757575;
   font-size: 16px;
   line-height: 1.18;
+  margin-top: 10px;
 }
-/*  _____________________Footer _____________________ */
+/* Футер */
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.footer-list {
+  margin-top: 20px;
+}
 .studio-footer {
   color: #ffffff;
+}
+.list-footer:not(:last-child) {
+  margin-bottom: 9px;
 }
 .footer-link-map {
   color: #ffffff;
@@ -168,7 +230,7 @@ img {
   color: #2196f3;
 }
 
-/*  _____________________Работа с портфолио _____________________ */
+/* Портфолио */
 .button-one {
   color: #ffffff;
   background-color: #2196f3;
@@ -197,4 +259,32 @@ img {
   font-size: 16px;
   line-height: 1.87;
   color: #757575;
+}
+
+.portfolio-about {
+  padding-top: 94px;
+}
+.list-portfolio {
+  display: flex;
+  justify-content: center;
+}
+
+.list-button:not(:last-child) {
+  margin-right: 9px;
+}
+.list-portfolio {
+  padding-left: 280px;
+  padding-right: 280px;
+  margin-bottom: 40px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.portfolio-img:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+.portfolio-img:not(:nth-last-child(-n + 3)) {
+  margin-bottom: 30px;
 }

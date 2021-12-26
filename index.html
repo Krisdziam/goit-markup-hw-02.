@@ -14,30 +14,26 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css
-
-
-
 "
     />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container header-container">
+        <a class="main-page" href=""
+          ><span class="main-page-web">Web</span
+          ><span class="main-page-studio">Studio</span></a
+        >
         <nav>
-          <a class="main-page" href=""
-            ><span class="main-page-web">Web</span
-            ><span class="main-page-studio">Studio</span></a
-          >
-
-          <ul class="list">
+          <ul class="list header-nav">
             <li><a class="link-header" href="">Студия</a></li>
             <li><a class="link-header" href="/portfolio.html">Портфолио</a></li>
             <li><a class="link-header" href="">Контакты</a></li>
           </ul>
         </nav>
 
-        <ul class="list">
+        <ul class="list header-tel">
           <li>
             <a class="link-contacts" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
@@ -60,7 +56,7 @@
       </section>
       <section class="work">
         <div class="container">
-          <ul class="list">
+          <ul class="list work-list">
             <li class="list-about">
               <h3 class="list-about-title">Внимание к деталям</h3>
               <p class="list-about-text">
@@ -95,17 +91,24 @@
       <section class="information">
         <div class="container">
           <h2 class="information-about">Чем мы занимаемся</h2>
-          <ul class="list">
-            <li><img src="./images/whatwedo1.jpg" alt="на клавиатуре" /></li>
-            <li><img src="./images/whatwedo2.jpg" alt="на телефоне" /></li>
-            <li><img src="./images/whatwedo3.jpg" alt="на планшете" /></li>
+          <ul class="list list-img">
+            <li class="img-item">
+              <img src="./images/whatwedo1.jpg" alt="на клавиатуре" />
+            </li>
+            <li class="img-item">
+              <img src="./images/whatwedo2.jpg" alt="на телефоне" />
+            </li>
+            <li class="img-item">
+              <img src="./images/whatwedo3.jpg" alt="на планшете" />
+            </li>
           </ul>
         </div>
       </section>
       <section class="team">
         <div class="container">
-          <ul class="list">
-            <li>
+          <h2 class="team-about">Наша команда</h2>
+          <ul class="list list-team">
+            <li class="team-member">
               <img
                 src="./images/master1.jpg"
                 alt="Игорь Демьяненко"
@@ -116,7 +119,7 @@
               <h3 class="team-title">Игорь Демьяненко</h3>
               <p class="team-text" lang="en">Product Designer</p>
             </li>
-            <li>
+            <li class="team-member">
               <img
                 src="./images/master2.jpg"
                 alt="Ольга Репина"
@@ -127,7 +130,7 @@
               <h3 class="team-title">Ольга Репина</h3>
               <p class="team-text" lang="en">Frontend Developer</p>
             </li>
-            <li>
+            <li class="team-member">
               <img
                 src="./images/master3.jpg"
                 alt="Николай Тарасов"
@@ -138,7 +141,7 @@
               <h3 class="team-title">Николай Тарасов</h3>
               <p class="team-text" lang="en">Marketing</p>
             </li>
-            <li>
+            <li class="team-member">
               <img
                 src="./images/master4.jpg"
                 alt="Михаил Ермаков"
@@ -160,8 +163,8 @@
           ><span class="studio-footer">Studio</span></a
         >
         <address>
-          <ul class="list">
-            <li>
+          <ul class="list footer-list">
+            <li class="list-footer">
               <a
                 class="footer-link-map"
                 href="https://goo.gl/maps/vSikNWWqTWctvKXCA"
@@ -170,12 +173,12 @@
                 >г. Киев, пр-т Леси Украинки, 26</a
               >
             </li>
-            <li>
+            <li class="list-footer">
               <a class="footer-link-contacts" href="mailto:info@example.com"
                 >info@example.com</a
               >
             </li>
-            <li>
+            <li class="list-footer">
               <a class="footer-link-contacts" href="tel:+380991111111"
                 >+38 099 111 11 11</a
               >
