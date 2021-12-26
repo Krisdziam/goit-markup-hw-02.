@@ -37,14 +37,16 @@ img {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
-  display: flex;
 }
+
 .link-header {
+  color: #212121;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
 }
+
 .link-header:hover,
 .link-header:focus {
   color: #2196f3;
@@ -89,6 +91,9 @@ img {
 
 .main-page-web {
   color: #2196f3;
+}
+.main-page-studio {
+  color: #000000;
 }
 
 /*  _____________________Кнопка _____________________ */
