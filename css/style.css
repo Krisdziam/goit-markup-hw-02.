@@ -248,13 +248,16 @@ img {
 /* Портфолио */
 .button-one {
   color: #ffffff;
-  background-color: #2196f3;
+  background: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  cursor: pointer;
+  border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  width: 73px;
+  max-height: 38px;
+  cursor: pointer;
 }
 .button {
   color: #212121;
@@ -264,7 +267,10 @@ img {
   font-size: 16px;
   line-height: 1.62;
 }
-
+.list-button .button {
+  background: #f5f4fa;
+  border-radius: 4px;
+}
 .menu-title {
   font-weight: bold;
   font-size: 18px;
