@@ -189,6 +189,9 @@ img {
 }
 .list-team {
   display: flex;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-member:not(:last-child) {
   margin-right: 30px;
@@ -255,7 +258,7 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  width: 73px;
+
   max-height: 38px;
   cursor: pointer;
 }
@@ -266,6 +269,12 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  padding: 6px 22px;
+  border: none;
+}
+.button:hover {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .list-button .button {
   background: #f5f4fa;
@@ -294,8 +303,6 @@ img {
   margin-right: 9px;
 }
 .list-portfolio {
-  padding-left: 280px;
-  padding-right: 280px;
   margin-bottom: 40px;
 }
 
@@ -314,4 +321,10 @@ img {
 }
 .portfolio-img:nth-last-child(-n + 3) {
   padding-bottom: 94px;
+}
+.menu-information {
+  padding: 20px 25px;
+}
+.menu-link {
+  display: block;
 }
