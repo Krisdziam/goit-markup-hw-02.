@@ -59,7 +59,30 @@ img {
   display: flex;
   margin-left: auto;
 }
+.icon-mail-header,
+.icon-smartphone-header {
+  --color1: currentColor;
+}
 
+.icon-mail-header {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+.icon-smartphone-header {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+.header-button a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .link-header {
   color: #212121;
   font-weight: 500;
@@ -68,7 +91,11 @@ img {
   text-decoration: none;
   margin-right: 50px;
 }
-
+.header-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .link-header:hover,
 .link-header:focus {
   color: #2196f3;
